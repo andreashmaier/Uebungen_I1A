@@ -36,4 +36,12 @@ public class Buch {
     public double getPreis(){
         return this.preis;
     }
+    
+    public void setTitel(String titel){
+        this.titel = titel;
+    }
+    
+    public void setPreis(double preis){
+        this.preis = preis;
+    }
 }
