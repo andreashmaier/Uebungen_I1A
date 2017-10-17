@@ -37,4 +37,14 @@ public class Person {
     public String getName() {
         return this.name;
     }
+    
+    public void setName(String name){
+        this.name = name;
+    }
+    /**
+     * 
+     */
+    public void setAlter(int alter){
+        this.alter = alter;
+    }
 }
